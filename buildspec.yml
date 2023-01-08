@@ -6,3 +6,10 @@ phases:
   build:
     commands:
       - yarn run build
+  artifacts:
+    files:
+      -  '**/*'
+    discard-paths: no
+    base-directory: build
+
+
